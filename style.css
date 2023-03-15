@@ -71,7 +71,33 @@ a {
     padding: 0px 30px;
 }
 
+/*Section Two*/
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
 
+.s2-main {
+    display:flex;
+    flex-direction : column;
+    flex:1;
+    margin: 20px 200px;
+    padding: 30px;
+}
+#s2-text1 {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+#s2-text2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: end;
+    margin-right: 60px;
+}
 
 /*Section Three*/
 .section-three {
