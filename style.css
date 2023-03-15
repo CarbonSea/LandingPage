@@ -73,9 +73,33 @@ a {
 
 
 
+/*Section Three*/
+.section-three {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+}
+.s3-main {
+    display: flex;
+    flex:1;
+    margin: 30px 250px;
+    padding: 30px;
+    border-radius: 9px;
+    background-color: #3882f6;
+    color: whitesmoke;
+    justify-content: space-around;
+}
 
-
-
+#s3-button {
+    padding: 10px 20px;
+    margin-top:30px;
+    border-radius: 5px;
+    border: solid 2px whitesmoke;
+    color: white;
+    background-color: #3882f6;
+}
 
 
 /* Footer CSS */
