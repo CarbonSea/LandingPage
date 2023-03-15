@@ -70,3 +70,19 @@ a {
     background-color: #1f2937;
     padding: 0px 30px;
 }
+
+
+
+
+
+
+
+
+/* Footer CSS */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: lightgray;
+}
