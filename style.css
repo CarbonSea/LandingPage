@@ -2,8 +2,13 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
-    height:250px;
+    height:200px;
     width: auto;
 }
 
@@ -13,6 +18,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 /*Header + Top*/
@@ -23,7 +29,6 @@ a {
 }
 .head-links {
     font-size: 18px;
-    color: #e5e7eb;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -33,9 +38,32 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#main-heading {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
 #hero-heading {
     font-size: 48px;
     color: #f9faf8;
+}
+.top-image-container {
+    padding: 25px;
+}
+
+#hero-para {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top-button {
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: #3882f6;
+
 }
 
 .top-main {
