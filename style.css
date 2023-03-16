@@ -71,6 +71,43 @@ a {
     padding: 0px 30px;
 }
 
+/*Section One*/
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.s1-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+    gap: 30px;
+
+}
+.s1-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#s1-head {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+#s1-img {
+    border-radius: 10px;
+    height: 170px;
+}
+
+
 /*Section Two*/
 .section-two {
     display: flex;
